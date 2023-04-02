@@ -129,6 +129,32 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.blog {
+  text-decoration: none;
+  color: unset;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.blog:hover {
+  text-decoration: none;
+  color: unset;
+}
+.blog p:first-child {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.blog p:last-child {
+  margin-bottom: 0;
+}
+.experience .name {
+  font-weight: 600;
+  font-size: 18px;
+}
+.experience .year {
+  font-weight: 300;
+  font-size: 14px;
+}
 
 /* css for contact */
 #contact{
